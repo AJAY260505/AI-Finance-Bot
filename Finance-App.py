@@ -189,7 +189,7 @@ st.title("🤖 AI-Powered Stock Comparison Tool")
 # Stock Input Section
 col1, col2 = st.columns(2)
 with col1:
-    stock1 = st.text_input("First Stock Symbol:", "AAPL").upper()
+    stock1 = st.text_input("First Stock Symbol:", "NVDA").upper()
 with col2:
     stock2 = st.text_input("Second Stock Symbol:", "MSFT").upper()
 
