@@ -16,7 +16,7 @@ finnhub_client = finnhub.Client(api_key=os.getenv("FINNHUB_API_KEY"))
 
 # Configure Google Gemini
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Initialize session state variables
 if "chat_history" not in st.session_state:
